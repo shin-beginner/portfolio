@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Webページの紹介文">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample3</title>
+
+    <!-- アイコン -->
+    <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <h1 class="header-logo"><a href="index.html"><img src="img/logo.svg" alt="logo"></a></h1>
+
+            <nav class="gnav">
+                <ul class="gnav-list">
+                    <li class="gnav-item"><a href="#about">About</a></li>
+                    <li class="gnav-item"><a href="#works">Works</a></li>
+                    <li class="gnav-item"><a href="#news">News</a></li>
+                    <li class="gnav-item"><a href="#contact">Contact</a></li>
+                    <li class="gnav-item"><a href="https://www.instagram.com/" target="_blank"><img src="img/icon-instagram.png" alt="インスタグラム"></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="visual">
+                <img src="img/mainvisual-pc.jpg">
+            </section>
+            <section class="about section" id="about">
+                <h2 class="section-title">About</h2>
+                <ul class="content">
+                    <li>Xxxxxx</li>
+                    <li>2th Floor xxxxx Building x-x-x Nishiazabu, Minato-ku, Tokyo 106-0031 Japan</li>
+                    <li>tel: 000-0000-0000</li>
+                    <li>url: www.xxxxxx.jp</li>
+                    <li>mail: xxx@xxxxxx.jp</li>
+                </ul>                    
+                    <p class="about-text">
+                        プロフィールテキストテキストテキストテキストテキストテキストテキストテキストテキストスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+                    </p>
+            </section>
+            <section class="works section" id="works">
+                <h2 class="section-title">Works</h2>
+                <ul class="works-list">
+                    <li><img class="works-item" src="img/works1.jpg"></li>
+                    <li><img class="works-item" src="img/works2.jpg"></li>
+                    <li><img class="works-item" src="img/works3.jpg"></li>
+                    <li><img class="works-item" src="img/works4.jpg"></li>
+                    <li><img class="works-item" src="img/works5.jpg"></li>
+                    <li><img class="works-item" src="img/works6.jpg"></li>
+                </ul>
+            </section>
+            <section class="news section" id="news">
+                <h2 class="section-title">News</h2>
+                <dl class="news-list">
+                    <dt>2020.XX.XX</dt>
+                    <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.11』に掲載していただきました。</dd>
+                    <dt>2020.XX.XX</dt>
+                    <dd>ＸＸ月ＸＸ日から写真集「ＸＸＸＸＸＸＸ」の販売を開始します。</dd>
+                    <dt>2020.XX.XX</dt>
+                    <dd>【イベント開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+                    <dt>2020.XX.XX</dt>
+                    <dd>デザイン雑誌「ＸＸＸＸＸＸ Vol.10』に掲載していただきました。</dd>
+                    <dt>2020.XX.XX</dt>
+                    <dd>【個展開催のお知らせ】テキストテキストテキストテキストテキストテキストテキスト</dd>
+                </dl>
+            </section>
+
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+                <form action="#" method="post">
+                    <dl>
+                        <dt><label for="name">NAME</label></dt>
+                        <dd><input type="text" id="name" name="your-name"></dd>
+                        <dt><label for="email">E-mail</label></dt>
+                        <dd><input type="email" id="email" name="your-email"></dd>
+                        <dt><label for="message">MESSAGE</label></dt>
+                        <dd><textarea id="message" name="your-messsage"></textarea></dd>
+                    </dl>
+                    <div class="button"><input type="submit" value="送信"></div>
+                </form>                
+            </section>
+
+            <div class="page-top" id="js-page-top">
+                <span class="material-icons-outlined">expand_less</span>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <div class="copyright">©TEST SITE</div>
+        </footer>
+        <script type="text/javascript" src="js/script.js"></script>
+    </div>
+</body>
+</html>
