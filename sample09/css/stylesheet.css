@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #333;
+  font-family: "游ゴシック体", "YuGothic", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+  letter-spacing: 0.1em;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.7;
+}
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+li {
+  list-style: none;
+}
+
+/*
+コンテンツ幅を設定するための共通クラス
+*/
+
+
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+#header {
+  position: relative;
+  width: 100%;
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+/*-------------------------------------------
+フッター
+-------------------------------------------*/
+/*
+「position: absolute;」を設定して、フッター位置を画面下に設定
+「left: 0;」「right: 0;」で中央に配置
+*/
+#footer {
+  background-color: #e8e8e8;
+  padding: 60px 0 20px 0;
+}
+
+#footer a {
+  font-size: 0.875rem;
+  transition: 0.3s;
+}
+
+#footer a:hover {
+  opacity: 0.7;
+}
+
+#footer .inner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+#footer .inner > li {
+  width: 25%;
+}
+
+#footer .inner .title {
+  font-weight: bold;
+}
+
+#footer .inner .menu {
+  padding: 10px 0 0 10px;
+}
+
+#footer .inner .menu li{
+  margin-bottom: 3px;
+}
+
+.copyright {
+  font-size: 0.625rem;
+  text-align: center;
+}
+
+.page-top {
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #4c4c4c;
+}
+
+.page-top .material-icons-outlined {
+  vertical-align: bottom;
+  color: #fff;
+}
