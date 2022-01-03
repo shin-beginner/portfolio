@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #333;
+  font-family: "游ゴシック体", "YuGothic", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", "メイリオ", sans-serif;
+  letter-spacing: 0.1em;
+}
+a {
+  color: #333;
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.7;
+}
+img {
+  max-width: 100%;
+}
+li {
+  list-style: none;
+}
+
+section {
+  margin-bottom: 80px;
+}
+
+/*
+コンテンツ幅を設定するための共通クラス
+*/
+
+.wrapper {
+  padding: 0 5%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.botton {
+  border: solid 1px #333;
+  padding: 10px 20px;
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+}
+
+/*-------------------------------------------
+ヘッダー
+-------------------------------------------*/
+#header {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+#header .logo {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+
+/*-------------------
+magazin
+--------------------*/
+#magazin {
+  margin-bottom: 50px;
+}
+
+#magazin .title {
+  margin-bottom: 10px;
+}
+
+#magazin p {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.magazin-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.archive {
+  position: relative;
+  width: 48%;
+}
+
+.archive img {
+  height: 400px;
+  width: 600px;
+}
+
+.archive-text {
+  position: absolute;
+  max-width: 290px;
+  text-align: center;
+  top: 40%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.news {
+  position: relative;
+  width: 48%;
+}
+
+.news img {
+  height: 400px;
+}
+
+.news-text {
+  position: absolute;
+  max-width: 290px;
+  text-align: center;
+  top: 40%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*-------------------
+fashion
+--------------------*/
+#fashion {
+  padding-top: 50px;
+  height: 520px;
+  background-image: url(../img/fashion.jpg);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#fashion .title {
+  margin-bottom: 10px;
+}
+
+#fashion p {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/*-------------------
+catalog
+--------------------*/
+#catalog {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.catalog-left {
+  width: 48%;
+}
+
+.catalog-right {
+  width: 48%;
+}
+
+.catalog-right .title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.catalog-right p {
+  padding: 20px 30px;
+}
+
+/*-------------------
+Antique
+--------------------*/
+#antique {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+
+.antique-left {
+  width: 48%;
+  text-align: center;
+}
+
+.antique-right {
+  width: 48%;
+}
+
+.antique-left .title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.antique-left p {
+  padding: 20px 30px;
+  text-align: left;
+}
+
+
+/*-------------------------------------------
+フッター
+-------------------------------------------*/
+/*
+「position: absolute;」を設定して、フッター位置を画面下に設定
+「left: 0;」「right: 0;」で中央に配置
+*/
+#footer {
+  background-color: #333;
+  color: #fff;  
+}
+
+.footer-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+
+#footer .item {
+  width: 33%;
+  letter-spacing: -0.07em;
+}
+
+#footer .item .title {
+  text-align: left;
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+#footer .item:first-child {
+  padding: 60px 0;
+}
+
+#footer .item .menu1 li::before {
+  content: "-";
+  margin-right: 5px;
+}
+
+#footer .copyright {
+  font-size: 0.625rem;
+  text-align: center;
+  background-color: #fff;
+  color: #4c4c4c;
+  padding: 10px 0;
+}
+
+.page-top {
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #4c4c4c;
+}
+
+.page-top .material-icons-outlined {
+  vertical-align: bottom;
+  color: #fff;
+}

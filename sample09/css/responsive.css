@@ -1,0 +1,57 @@
+@media screen and (max-width: 896px) {
+    .magazin-items {
+        flex-direction: column;
+    }
+
+    .archive {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .news {
+        width: 100%;
+    }
+
+    #catalog {
+        flex-direction: column;
+    }
+
+    .catalog-left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .catalog-right {
+        width: 100%;
+    }
+
+    #antique {
+        flex-direction: column;
+    }
+    
+    .antique-left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    .antique-right {
+        width: 100%;
+    }
+
+    .footer-items {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    #footer .item {
+        width: 100%;
+        padding-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    #footer .item:first-child {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+}
